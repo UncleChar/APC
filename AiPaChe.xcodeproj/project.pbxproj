@@ -86,25 +86,26 @@
 		9DD82D341C9A483A0036D8D2 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD82D331C9A483A0036D8D2 /* libstdc++.6.0.9.tbd */; };
 		9DD82D391C9A49980036D8D2 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DD82D381C9A49980036D8D2 /* mapapi.bundle */; };
 		9DD82D3E1C9A5BEC0036D8D2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD82D3D1C9A5BEC0036D8D2 /* MainViewController.m */; };
-		DB6748BD1C9AB59B000C710A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB6748BB1C9AB59B000C710A /* AlipaySDK.bundle */; settings = {ASSET_TAGS = (); }; };
-		DB6748BE1C9AB59B000C710A /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6748BC1C9AB59B000C710A /* AlipaySDK.framework */; settings = {ASSET_TAGS = (); }; };
-		DB67491F1C9AB5C9000C710A /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67490C1C9AB5C9000C710A /* Order.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749201C9AB5C9000C710A /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67490F1C9AB5C9000C710A /* base64.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749211C9AB5C9000C710A /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749121C9AB5C9000C710A /* DataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749221C9AB5C9000C710A /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749141C9AB5C9000C710A /* DataVerifier.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749231C9AB5C9000C710A /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749161C9AB5C9000C710A /* MD5DataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749241C9AB5C9000C710A /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749181C9AB5C9000C710A /* NSDataEx.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749251C9AB5C9000C710A /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491A1C9AB5C9000C710A /* openssl_wrapper.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749261C9AB5C9000C710A /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491C1C9AB5C9000C710A /* RSADataSigner.m */; settings = {ASSET_TAGS = (); }; };
-		DB6749271C9AB5C9000C710A /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491E1C9AB5C9000C710A /* RSADataVerifier.m */; settings = {ASSET_TAGS = (); }; };
-		DB67492A1C9AB60F000C710A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749281C9AB60F000C710A /* libcrypto.a */; settings = {ASSET_TAGS = (); }; };
-		DB67492B1C9AB60F000C710A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749291C9AB60F000C710A /* libssl.a */; settings = {ASSET_TAGS = (); }; };
+		9DDBC8331C9B8ED400024A79 /* UIAlertCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBC8321C9B8ED400024A79 /* UIAlertCategory.m */; };
+		DB6748BD1C9AB59B000C710A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB6748BB1C9AB59B000C710A /* AlipaySDK.bundle */; };
+		DB6748BE1C9AB59B000C710A /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6748BC1C9AB59B000C710A /* AlipaySDK.framework */; };
+		DB67491F1C9AB5C9000C710A /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67490C1C9AB5C9000C710A /* Order.m */; };
+		DB6749201C9AB5C9000C710A /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67490F1C9AB5C9000C710A /* base64.m */; };
+		DB6749211C9AB5C9000C710A /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749121C9AB5C9000C710A /* DataSigner.m */; };
+		DB6749221C9AB5C9000C710A /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749141C9AB5C9000C710A /* DataVerifier.m */; };
+		DB6749231C9AB5C9000C710A /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749161C9AB5C9000C710A /* MD5DataSigner.m */; };
+		DB6749241C9AB5C9000C710A /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749181C9AB5C9000C710A /* NSDataEx.m */; };
+		DB6749251C9AB5C9000C710A /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491A1C9AB5C9000C710A /* openssl_wrapper.m */; };
+		DB6749261C9AB5C9000C710A /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491C1C9AB5C9000C710A /* RSADataSigner.m */; };
+		DB6749271C9AB5C9000C710A /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67491E1C9AB5C9000C710A /* RSADataVerifier.m */; };
+		DB67492A1C9AB60F000C710A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749281C9AB60F000C710A /* libcrypto.a */; };
+		DB67492B1C9AB60F000C710A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749291C9AB60F000C710A /* libssl.a */; };
 		DB67492D1C9AB658000C710A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67492C1C9AB658000C710A /* Foundation.framework */; };
 		DB67492F1C9AB65F000C710A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB67492E1C9AB65F000C710A /* UIKit.framework */; };
 		DB6749311C9AB671000C710A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749301C9AB671000C710A /* CoreText.framework */; };
 		DB6749331C9AB686000C710A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749321C9AB686000C710A /* libz.tbd */; };
 		DB6749351C9ABBF1000C710A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6749341C9ABBF1000C710A /* CoreMotion.framework */; };
-		DB67493A1C9AD85D000C710A /* MyBMKPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749391C9AD85D000C710A /* MyBMKPointAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		DB67493A1C9AD85D000C710A /* APCPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6749391C9AD85D000C710A /* APCPointAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +272,8 @@
 		9DD82D381C9A49980036D8D2 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 		9DD82D3C1C9A5BEC0036D8D2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9DD82D3D1C9A5BEC0036D8D2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9DDBC8311C9B8ED400024A79 /* UIAlertCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertCategory.h; sourceTree = "<group>"; };
+		9DDBC8321C9B8ED400024A79 /* UIAlertCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertCategory.m; sourceTree = "<group>"; };
 		DB6748BB1C9AB59B000C710A /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		DB6748BC1C9AB59B000C710A /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		DB6748C01C9AB5C9000C710A /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -374,9 +377,9 @@
 		DB6749301C9AB671000C710A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		DB6749321C9AB686000C710A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DB6749341C9ABBF1000C710A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		DB6749361C9ABD07000C710A /* PartnerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartnerConfig.h; sourceTree = "<group>"; };
-		DB6749381C9AD85D000C710A /* MyBMKPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBMKPointAnnotation.h; sourceTree = "<group>"; };
-		DB6749391C9AD85D000C710A /* MyBMKPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBMKPointAnnotation.m; sourceTree = "<group>"; };
+		DB6749361C9ABD07000C710A /* PartnerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PartnerConfig.h; path = ../BaseViewControllers/PartnerConfig.h; sourceTree = "<group>"; };
+		DB6749381C9AD85D000C710A /* APCPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCPointAnnotation.h; sourceTree = "<group>"; };
+		DB6749391C9AD85D000C710A /* APCPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCPointAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,6 +462,7 @@
 				DB6749371C9AD82E000C710A /* CustomBaiduView */,
 				9DD82B741C9A405C0036D8D2 /* BaseViewControllers */,
 				9DD82D3B1C9A5BAC0036D8D2 /* LoginViewController */,
+				9DDBC8301C9B8D5E00024A79 /* PayViewControllers */,
 				9DD82B4A1C9A3EFA0036D8D2 /* Assets.xcassets */,
 				9DD82B4F1C9A3EFA0036D8D2 /* Info.plist */,
 				9DD82B3E1C9A3EFA0036D8D2 /* Supporting Files */,
@@ -496,7 +500,6 @@
 		9DD82B741C9A405C0036D8D2 /* BaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DB6749361C9ABD07000C710A /* PartnerConfig.h */,
 				9DD82B751C9A40740036D8D2 /* PublicTopElement.h */,
 				9DD82B761C9A40740036D8D2 /* PublicTopElement.m */,
 				9DD82D3C1C9A5BEC0036D8D2 /* MainViewController.h */,
@@ -673,6 +676,8 @@
 		9DD82C001C9A435C0036D8D2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9DDBC8311C9B8ED400024A79 /* UIAlertCategory.h */,
+				9DDBC8321C9B8ED400024A79 /* UIAlertCategory.m */,
 				9DD82C331C9A435C0036D8D2 /* AlertTipsViewTool.h */,
 				9DD82C341C9A435C0036D8D2 /* AlertTipsViewTool.m */,
 				9DD82C351C9A435C0036D8D2 /* AuthcodeView.h */,
@@ -778,6 +783,14 @@
 			children = (
 			);
 			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		9DDBC8301C9B8D5E00024A79 /* PayViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB6749361C9ABD07000C710A /* PartnerConfig.h */,
+			);
+			path = PayViewControllers;
 			sourceTree = "<group>";
 		};
 		DB6748BA1C9AB4D6000C710A /* aliPaySDK */ = {
@@ -904,8 +917,8 @@
 		DB6749371C9AD82E000C710A /* CustomBaiduView */ = {
 			isa = PBXGroup;
 			children = (
-				DB6749381C9AD85D000C710A /* MyBMKPointAnnotation.h */,
-				DB6749391C9AD85D000C710A /* MyBMKPointAnnotation.m */,
+				DB6749381C9AD85D000C710A /* APCPointAnnotation.h */,
+				DB6749391C9AD85D000C710A /* APCPointAnnotation.m */,
 			);
 			path = CustomBaiduView;
 			sourceTree = "<group>";
@@ -977,6 +990,7 @@
 				TargetAttributes = {
 					9DD82B3A1C9A3EFA0036D8D2 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = LL8B8YCXA2;
 					};
 					9DD82B531C9A3EFA0036D8D2 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -1054,7 +1068,7 @@
 				9DD82BBE1C9A42990036D8D2 /* SBJsonParser.m in Sources */,
 				9DD82BA21C9A42620036D8D2 /* SDWebImageDownloaderOperation.m in Sources */,
 				9DD82CE61C9A435C0036D8D2 /* Reachability.m in Sources */,
-				DB67493A1C9AD85D000C710A /* MyBMKPointAnnotation.m in Sources */,
+				DB67493A1C9AD85D000C710A /* APCPointAnnotation.m in Sources */,
 				9DD82CEB1C9A435C0036D8D2 /* HorizontalMenu.m in Sources */,
 				9DD82BEF1C9A43230036D8D2 /* MJRefreshComponent.m in Sources */,
 				9DD82BBA1C9A42990036D8D2 /* NSObject+SBJSON.m in Sources */,
@@ -1078,6 +1092,7 @@
 				9DD82CD31C9A435C0036D8D2 /* UIView+FirstResponderNotify.m in Sources */,
 				9DD82BBB1C9A42990036D8D2 /* NSString+SBJSON.m in Sources */,
 				DB6749221C9AB5C9000C710A /* DataVerifier.m in Sources */,
+				9DDBC8331C9B8ED400024A79 /* UIAlertCategory.m in Sources */,
 				9DD82BA81C9A42620036D8D2 /* UIImage+WebP.m in Sources */,
 				9DD82CCE1C9A435C0036D8D2 /* AuthcodeView.m in Sources */,
 				9DD82BAA1C9A42620036D8D2 /* UIImageView+WebCache.m in Sources */,
@@ -1185,7 +1200,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "34c5e680-1520-4358-920a-e9f51d5cbfa0";
+				PROVISIONING_PROFILE = "fd130dce-0bd1-41ad-922c-9674b8dc669f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1225,7 +1240,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "34c5e680-1520-4358-920a-e9f51d5cbfa0";
+				PROVISIONING_PROFILE = "fd130dce-0bd1-41ad-922c-9674b8dc669f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1237,8 +1252,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Zhang (86236CK7Q3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Zhang (86236CK7Q3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AiPaChe/Libs/BaiduApi",
@@ -1258,7 +1273,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.char.AiPaChe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "34c5e680-1520-4358-920a-e9f51d5cbfa0";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1268,8 +1283,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Zhang (86236CK7Q3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Zhang (86236CK7Q3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AiPaChe/Libs/BaiduApi",
@@ -1289,7 +1304,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.char.AiPaChe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "34c5e680-1520-4358-920a-e9f51d5cbfa0";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

@@ -29,6 +29,11 @@
     leftItem.image = [UIImage imageNamed:@"backk"];
     self.navigationItem.leftBarButtonItem = leftItem;
 //    self.view.backgroundColor = kBackColor;
+    
+    UIBarButtonItem *RIGHTItem = [[UIBarButtonItem alloc] initWithTitle:nil style:UIBarButtonItemStylePlain target:self action:nil];
+//    leftItem.image = [UIImage imageNamed:@"backk"];
+    RIGHTItem.title = @"南京";
+    self.navigationItem.rightBarButtonItem = RIGHTItem;
 }
 
 - (void)backBack {

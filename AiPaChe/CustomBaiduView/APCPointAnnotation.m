@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Char. All rights reserved.
 //
 
-#import "MyBMKPointAnnotation.h"
+#import "APCPointAnnotation.h"
 
-@implementation MyBMKPointAnnotation
+@implementation APCPointAnnotation
 
 @synthesize isTouch;
 
